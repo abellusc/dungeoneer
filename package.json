@@ -1,0 +1,9 @@
+{
+  "name": "consoul",
+  "version": "1.0.0",
+  "description": "Create a souls-like text adventure game with ease with this library.",
+  "main": "dist/exports",
+  "author": "@abellusc",
+  "license": "MIT",
+  "private": true
+}
