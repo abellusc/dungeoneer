@@ -1,3 +1,0 @@
-export abstract interface NPC {
-
-}
