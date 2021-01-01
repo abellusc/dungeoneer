@@ -1,3 +1,9 @@
+# GNU LGPL 3.0 License
+Plain English Description: This license only applies to the dungeoneer code library as a derivative work, development of plugins, contributions, forks, etc. If you use/extend/modify/... the code in any way for your own use or contribution to the team, then this license applies to you.
+
+
+
+
                    GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

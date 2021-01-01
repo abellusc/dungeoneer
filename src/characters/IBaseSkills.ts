@@ -5,4 +5,7 @@ export interface IBaseSkills {
     investigation?: number; // used to check against dungeon clues, also gives a bonus to item discovery
     history?: number; // used to check history of items
     language?: number; // gives a bonus to language proficiency checks, but does not grant language proficiency itself (also buffs language learning speed)
+    athletics?: number; // bonus to athletic feats
+    medicine?: number;
+    survival?: number;
 }

@@ -1,0 +1,2 @@
+# End User License Agreement
+Plain English Description: This license only applies to the use of dungeoneer as a command-line tool. If you use the `dungeoneer` command in any way, this license applies to you.

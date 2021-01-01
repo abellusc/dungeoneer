@@ -21,13 +21,13 @@ export abstract class DataFile extends Uint8Array {
     private compress(dataString: string): string {
         return lzutf8.compress(dataString, {
             inputEncoding: 'String',
-            outputEncoding: 'Base64',
+            outputEncoding: 'BinaryString',
         });
     }
 
     private decompress(dataString: string): string {
         return lzutf8.decompress(dataString, {
-            inputEncoding: 'Base64',
+            inputEncoding: 'BinaryString',
             outputEncoding: 'String'
         })
     }
@@ -39,7 +39,7 @@ export abstract class DataFile extends Uint8Array {
 
     private jsonToBuffer(json: string): Buffer {
         const buf = Buffer.alloc(json.length);
-        buf.write(json, 'utf-8');
+        buf.write(json, 'hex');
 
         return buf;
     }
